@@ -1,0 +1,21 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Data files (keep raw large files out of Git)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.parquet
+!data/raw/.gitkeep
+
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+
+# Databricks exported cache
+.databricks/
